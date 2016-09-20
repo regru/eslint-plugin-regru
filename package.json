@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-regru",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESlint rules for REG.RU project",
   "main": "index.js",
   "directories": {

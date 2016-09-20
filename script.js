@@ -1,1 +1,4 @@
-('12')( '12' + '111' )( a + '111' )( '1' + b )
+('Here is no whitespace')
+( 'other' + 'expressions got whistespaces' )
+( likeThisFoo, 'and this bar' )
+('so only pore string are true')
