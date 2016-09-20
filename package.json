@@ -15,5 +15,16 @@
     "regru"
   ],
   "author": "Ivan Sobolev <destinct@yandex.ru> (https://github.com/DesTincT)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "esutils": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/regru/eslint-plugin-regru.git"
+  },
+  "bugs": {
+    "url": "https://github.com/regru/eslint-plugin-regru/issues"
+  },
+  "homepage": "https://github.com/regru/eslint-plugin-regru#readme"
 }

@@ -1,5 +1,11 @@
 {
     "rules": {
-        "no-space-in-parens": "error"
+        "no-space-in-parens": [
+            "error",
+            "always",
+            {
+                "exceptions": ["(STRING)"]
+            }
+        ]
     }
 }
