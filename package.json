@@ -1,0 +1,19 @@
+{
+  "name": "eslint-plugin-regru",
+  "version": "1.0.0",
+  "description": "ESlint rules for REG.RU project",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "eslint",
+    "regru"
+  ],
+  "author": "Ivan Sobolev <destinct@yandex.ru> (https://github.com/DesTincT)",
+  "license": "MIT"
+}
