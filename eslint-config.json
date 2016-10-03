@@ -1,6 +1,9 @@
 {
+    "plugins": [
+        "regru"
+    ],
     "rules": {
-        "no-space-in-parens": [
+        "regru/no-space-in-parens": [
             "error",
             "always",
             {
