@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "npm run test"
+    "test": "mocha ./tests/lib/rules/*.js"
   },
   "keywords": [
     "eslint",
@@ -18,6 +18,10 @@
   "license": "MIT",
   "dependencies": {
     "esutils": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "mocha": "^5.1.1"
   },
   "repository": {
     "type": "git",
