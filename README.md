@@ -8,7 +8,7 @@ REG.RU ESLint custom rules
 
 Add exception for `()` parens which contains ONLY string expression
 
-(More Details)[https://github.com/regru/eslint-plugin-regru/docs/rules/no-space-in-parens.md]
+[More Details](https://github.com/regru/eslint-plugin-regru/docs/rules/no-space-in-parens.md)
 
 ```
 {
