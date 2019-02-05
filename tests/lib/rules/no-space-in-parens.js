@@ -96,7 +96,15 @@ ruleTester.run( "no-space-in-parens", rule, {
             options,
         },
         {
-          code: "fn( `template literal${`nested${fn( console.log( 1, 'var' ) )}`}`, variable )",
+            code: "fn( `template literal${`nested${fn( console.log( 1, 'var' ) )}`}`, variable )",
+            options,
+        },
+        {
+          code: "`template literal`",
+          options,
+        },
+        {
+          code: "`template ${ `template literal` } literal`",
           options,
         },
     ],
